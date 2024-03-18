@@ -1,12 +1,16 @@
+.web{
+  color: blue;
+}
 body{
   font-family: 'poppins', sans-serif;
+  background-color: #483D8B;
 }
 *{
   margin: 0;
   padding: 0;
 }
 
-.cabecalho  {background-color:#424E61 ;
+.cabecalho  {background-color:#836FFF ;
 color:white;
 display: flex;
 justify-content: space-around;
@@ -14,20 +18,22 @@ align-items: center;
 padding: 24px 0;
 }
 
-.cabecalho-imagem{
+.escola-imagem{
     width: 20%;
+    margin-left: 100px;
 }
 
-.cabecalho-lista-item{
+.cabecalho-lista{
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
+    width: 100px;
 }
 .escola-imagem{
   width: 25%;
 }
 .escola{
-  background-image: linear-gradient(#424E61,#4EBFE9);
+  background-image: linear-gradient(#836FFF,#6959CD,#483D8B);
   color: white;
   display: flex;
   justify-content: center;
@@ -58,10 +64,11 @@ padding: 24px 0;
   grid-template-columns: 20% 20% 20% 20% 20%;
 }
 .rodape{
-  background-color: black;
+  background-color: ;
   text-align: center;
 }
 .rodape-imagem{
   height: 60px;
   padding: 12px 0;
+  color: blue;
 }
